@@ -465,7 +465,7 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: #FFFFFF;
     max-width: 264px;
     text-align: left;
     padding: 15px;
@@ -503,7 +503,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color 250ms linear;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
