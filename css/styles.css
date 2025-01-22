@@ -451,13 +451,67 @@ img{
     
 }
 
-.container-footer {
+/* .container-footer {
     display: flex;
     align-items: baseline;
 
+} */
+
+.container-footer {
+    margin-right: 120px; 
+}
+.footer p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+    text-align: left;
+    padding: 15px;
 }
 
-.footer-list{
+.social-text-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.social-list-footer {
+    display: flex;
+    line-height: 0;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 208px;
+    height: 80px;
+}
+.social-list-footer {
+    display: flex;
+    line-height: 0;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 208px;
+    height: 80px;
+}
+
+
+.social-list-footer-item {
+    list-style-type: none;
+    background-color: #4d5ae5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms linear;
+}
+.social-list-footer-item:hover,
+.social-list-footer-item:focus {
+    background-color: #31d0aa;
+}
+/* .footer-list{
     list-style-type: none;
     display: flex;
     gap: 120px;
@@ -533,5 +587,5 @@ img{
 
 .social-list-link-footer {
     
-}
+} */
 /* #endregion footer*/
