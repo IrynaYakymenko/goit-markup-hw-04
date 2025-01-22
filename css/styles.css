@@ -100,20 +100,20 @@ img{
     gap: 40px;
 }
 
-.first-list {
+/* .first-list {
     position: relative;
-}
+} */
 
-.first-list {
-    color: #404bbf;
-}
 
-.first-list:first-child::after {
+
+
+.first::after {
     border-radius: 2px;
     width: 100%; 
     height: 4px;
     background: #404bbf;
     content: '';
+    color: #404bbf;
     display: block;
     left: 0; 
     bottom: -1px; 
@@ -122,6 +122,7 @@ img{
 }
 
 .link-list-header{
+    position: relative;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -131,6 +132,9 @@ img{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.first {
+    color: #404bbf;
+}
 /* .list-header:first-child {
     position: relative;
     color: #404bbf; 
@@ -391,14 +395,6 @@ img{
     margin-bottom: 72px;
 }
 
-/* .img-fourth-section{
-    position: relative;
-} */
-
-.img-fourth-section:hover {
-    transform: translateY(0%);
-}
-
 .list-fourth-section {
     display: flex;
     list-style-type: none;
@@ -408,6 +404,7 @@ img{
 }
 
 .item-fourth-section {
+    transform: translateY(0%);
     position: relative; 
     overflow: hidden;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -434,23 +431,19 @@ img{
 }
 
 
-.item-fourth-section:hover .portfolio-overlay {
+.item-fourth-section:hover p{
     transform: translateY(0%);
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 } 
 
 .item-fourth-section:hover {
-    transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-} 
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 
-.portfolio-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transform: translateY(100%);
-    transition: transform 250ms linear;
+}
+
+.card-overlay {
+    position: relative;
+    overflow: hidden;
 }
 
 .text-overlay {
@@ -463,11 +456,11 @@ img{
     color: #f4f4fd;
     padding: 40px 32px;
     background-color: #4d5ae5;
-    /* height: 100%; 
-    width: 100%; */
+    height: 100%; 
+    width: 100%; 
     text-align: left;
-    /* transform: translateY(100%); 
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transform: translateY(100%); 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* #endregion fourth section*/
 
