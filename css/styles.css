@@ -463,6 +463,10 @@ img{
     gap: 120px;
 }
 
+.footer-logo {
+    margin-right: 120px;
+}
+
 .footer p{
     font-size: 16px;
     line-height: 1.5;
