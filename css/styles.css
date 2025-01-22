@@ -448,7 +448,7 @@ img{
 .footer{
     background: #2e2f42;
     padding: 100px 0;
-    
+    display: flex;
 }
 
 /* .container-footer {
@@ -459,6 +459,7 @@ img{
 
 .container-footer {
     margin-right: 120px; 
+    align-items: baseline;
 }
 .footer p{
     font-size: 16px;
@@ -470,6 +471,10 @@ img{
     padding: 15px;
 }
 
+.social-footer {
+    margin-right: 120px;
+}
+
 .social-text-footer {
     font-weight: 500;
     font-size: 16px;
@@ -478,14 +483,6 @@ img{
     color: #fff;
 }
 
-.social-list-footer {
-    display: flex;
-    line-height: 0;
-    justify-content: space-between;
-    margin-top: 8px;
-    width: 208px;
-    height: 80px;
-}
 .social-list-footer {
     display: flex;
     line-height: 0;
